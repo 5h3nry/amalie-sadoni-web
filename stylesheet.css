@@ -30,9 +30,19 @@ h1 {
 #accent-left {
     position: absolute;
     
-    top: 10px;
-    left: 0px;
+    top: 0px;
+    left: 15px;
 
-    width: 800px;
+    width: 50vh;
+
+}
+
+#accent-right {
+    position: absolute;
+    
+    top: 0px;
+    right: 15px;
+
+    width: 50vh;
 
 }
