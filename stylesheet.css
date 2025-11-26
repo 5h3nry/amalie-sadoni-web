@@ -17,23 +17,3 @@ h1 {
     font-size: 150px;
     text-align: center;
 }
-
-#accent-left {
-    position: absolute;
-
-    top: 0px;
-    left: 15px;
-
-    width: 35%;
-
-}
-
-#accent-right {
-    position: absolute;
-
-    top: 0px;
-    right: 15px;
-
-    width: 35%;
-
-}
