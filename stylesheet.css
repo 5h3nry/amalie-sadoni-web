@@ -1,51 +1,10 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-body {
-    background: #EDEDE7;
-}
-
+/* Google fonts */
 .splash-regular {
     font-family: "Splash", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
-#landingsplash h1 {
-    position: absolute;
-    top: calc(50vh - 7rem);
-    right: 15vw;
-
-    font-size: 7rem;
-    color: #EDEDE7;
-}
-
-#landingsplash {
-position: absolute;
-top: 0;
-left: 0;
-z-index: -20;
-
-width: 100vw;
-height: 100vh;
-max-height: 100vh;
-
-background-image: url(Media/godefroy-boutet-unsplash-cropped.jpg);
-background-position: center center;
-background-size: 100% 100%;
-}
-
-.avatar {
-    transform-origin: center;
-    height: auto;
-    width: 35%;
-    
-    position: absolute;
-    top: 50vh;
-    left: 15vw;
-
-    border-radius: 100%;
-    border: 2px dotted #EDEDE7;
+body {
+    background: #EDEDE7;
 }
