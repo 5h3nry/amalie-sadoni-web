@@ -8,3 +8,24 @@
 body {
     background: #EDEDE7;
 }
+
+/* Landing */
+.landing {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Media/godefroy-boutet-unsplash-cropped.jpg);
+}
+
+.landing img {
+    height: 100px;
+    width: auto;
+    border-radius: 100%;
+    border-color: white;
+    border-style: dashed;
+}
+
+
+.landing h1 {
+    color: white;
+}
