@@ -15,17 +15,25 @@ body {
     height: 100vh;
     width: 100vw;
     background-image: url(Media/godefroy-boutet-unsplash-cropped.jpg);
+    background-position: 100vw;
 }
 
 .landing img {
-    height: 100px;
-    width: auto;
-    border-radius: 100%;
-    border-color: white;
-    border-style: dashed;
+box-sizing: border-box;
+
+position: absolute;
+width: 546px;
+height: 546px;
+
+background: url(Amalie Avatar.png);
+border: 10px dashed #EDEDE7;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 1000px;
+
 }
 
 
 .landing h1 {
     color: white;
 }
+
