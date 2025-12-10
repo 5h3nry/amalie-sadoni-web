@@ -1,3 +1,9 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 /* Google fonts */
 .splash-regular {
     font-family: "Splash", cursive;
@@ -17,7 +23,6 @@ body {
     height: 100%;
     width: 100%;
     background-image: url(Media/godefroy-boutet-unsplash-cropped.jpg);
-    background-position: 100vw;
 }
 
 .landing img {
