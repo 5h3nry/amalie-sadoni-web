@@ -5,10 +5,10 @@
 }
 
 /* Google fonts */
-.splash-regular {
-    font-family: "Splash", cursive;
-    font-weight: 400;
-    font-style: normal;
+.neonderthaw-regular {
+  font-family: "Neonderthaw", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -41,5 +41,6 @@ border-radius: 1000px;
 
 .landing h1 {
     color: white;
+    font-size: 400px;
 }
 
