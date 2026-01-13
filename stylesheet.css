@@ -76,7 +76,7 @@
 
 .section-grid {
   display: grid;
-  grid-template-columns: 51% auto;
+  grid-template-columns: 55% auto;
 }
 
 .section {
