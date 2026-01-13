@@ -3,6 +3,9 @@
     margin: 0px;
     overflow-x: hidden;
     box-sizing: border-box;
+    /* Delete comment for debug*/
+    border: red 2px;
+    border-style: solid;
 }
 
 /* Google fonts */
@@ -15,7 +18,7 @@
 .section {
     height: 100vh;
     width: 100%;
-    background-color: #000;
+    background-color: #DDD9BD;
 }
 
 .neon {
@@ -29,9 +32,11 @@
 }
 
 #Splash h1 {
-  font-size: 10em;
+  /* Clamp function syntax: Min size, preferred size, max size. +1 rem is so that it can be zoomed for accessability.*/
+  font-size: clamp(1rem, 60vw + 1rem,  7rem);
   text-wrap: nowrap;
   padding: 0px 20px;
+  text-align: center;
 }
 
 #Splash {
@@ -41,21 +46,17 @@
   background-size: cover;
 }
 
-.splash-flex {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: nowrap;
-  align-items: center;
-}
-
 #Avatar {
-  width: 500px;
-  height: 500px;
+  display: block;
+  width: 25vw;
+  height: auto;
   border: white;
   border-style: solid;
   border-radius: 100%;
-  margin: 100px;
+  margin: auto;
+}
+
+.links {
+  display: inline-block;
+
 }
