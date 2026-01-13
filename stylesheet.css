@@ -3,6 +3,7 @@
     margin: 0px;
     overflow-x: hidden;
     box-sizing: border-box;
+    
     /* Delete comment for debug*/
     /*border: red 2px;
     border-style: solid; */
@@ -11,6 +12,12 @@
 /* Google fonts */
 .neonderthaw-regular {
   font-family: "Neonderthaw", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.numans-regular {
+  font-family: "Numans", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -33,12 +40,13 @@
 
 #Splash h1 {
   /* Clamp function syntax: Min size, preferred size, max size. +1 rem is so that it can be zoomed for accessability.*/
-  font-size: clamp(80%, 10vw + 1rem, 9rem);
-  text-wrap: nowrap;
+  font-size: clamp(80%, 10vw + 1rem, 95vw);
+  text-wrap: wrap;
   text-align: center;
 }
 
 #Splash {
+  display: grid;
   background-image: url(Media/Amalie\ Collage.png);
   background-repeat: repeat;
   background-position: center;
@@ -63,4 +71,46 @@
 .links {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: 51% auto;
+}
+
+.section {
+  background-color: #000;
+  color: white;
+  font-family: "Numans";
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 5rem;
+  margin: 10% 5% 5% 5%;
+}
+
+.section p {
+  font-size: 1.5rem;
+  margin: 25px;
+}
+
+.button {
+  color: black;
+  background-color: white;
+  border-radius: 15%;
+  border: white 10px;
+  padding: 25px 50%;
+}
+
+.section-image {
+  background-color: #DDD9BD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-image img {
+  width: 60%;
 }
