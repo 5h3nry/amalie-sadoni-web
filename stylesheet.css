@@ -4,8 +4,8 @@
     overflow-x: hidden;
     box-sizing: border-box;
     /* Delete comment for debug*/
-    border: red 2px;
-    border-style: solid;
+    /*border: red 2px;
+    border-style: solid; */
 }
 
 /* Google fonts */
@@ -33,14 +33,13 @@
 
 #Splash h1 {
   /* Clamp function syntax: Min size, preferred size, max size. +1 rem is so that it can be zoomed for accessability.*/
-  font-size: clamp(1rem, 60vw + 1rem,  7rem);
+  font-size: clamp(80%, 10vw + 1rem, 9rem);
   text-wrap: nowrap;
-  padding: 0px 20px;
   text-align: center;
 }
 
 #Splash {
-  background-image: url( Media/Amalie\ Collage.png);
+  background-image: url(Media/Amalie\ Collage.png);
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
@@ -48,15 +47,20 @@
 
 #Avatar {
   display: block;
-  width: 25vw;
+  width: 250px;
   height: auto;
   border: white;
   border-style: solid;
   border-radius: 100%;
   margin: auto;
+  margin-top: 50px;
+}
+
+.links img {
+  height: 10vh;
 }
 
 .links {
-  display: inline-block;
-
+  display: flex;
+  justify-content: space-around;
 }
