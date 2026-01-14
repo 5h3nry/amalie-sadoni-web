@@ -172,7 +172,7 @@ body {
   text-decoration: none;
 }
 
-.navbar a,li,h2 {
+.navbar a,ul,li,h2 {
   display: block;
   text-decoration: none;
 }
@@ -199,7 +199,7 @@ body {
   justify-items: center;
 }
 
-#aboutme {
+.page-title {
   text-align: center;
   margin: 50px 0px 50px 0px;
   font-size: 5rem;
