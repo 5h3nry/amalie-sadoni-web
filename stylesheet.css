@@ -107,7 +107,7 @@ body {
 
 .section p {
   font-size: 1.5rem;
-  margin: 1% 20%;
+  margin: 1% Min(10%, 20%);
 }
 
 .button {
@@ -202,10 +202,10 @@ body {
 
 #Splash h1 {
   /* Clamp function syntax: Min size, preferred size, max size. +1 rem is so that it can be zoomed for accessability.*/
-  font-size: 10rem;
+  font-size: clamp( 1.8rem , 12vw + 1rem, 7.5rem);
   text-wrap: wrap;
   text-align: center;
-  margin: auto;
+  margin: 0px 1%;
   padding: 0px 1rem;
 
 }
