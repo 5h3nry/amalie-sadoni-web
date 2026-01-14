@@ -138,6 +138,11 @@ body {
   width: 60%;
 }
 
+.section-text {
+  justify-content: center;
+  align-items: center;
+}
+
 #Gallery {
   background-image: url(Media/Gallery\ Background.png);
   background-repeat: repeat;
