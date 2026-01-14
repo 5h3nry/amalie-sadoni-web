@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -5,8 +9,8 @@
     box-sizing: border-box;
     
     /* Delete comment for debug*/
-    border: red 2px;
-    border-style: solid;
+    /*border: red 2px;
+    border-style: solid;*/
 }
 
 body {
@@ -151,5 +155,31 @@ body {
 }
 
 #Gallery h2 {
-  margin-top: 5%
+  margin-top: 7.5%
+}
+
+@media (max-width: 790px) {
+  
+  .section-image {
+    display: none;
+  }
+
+  #AboutMe {
+  display: grid;
+  grid-template-columns: 100%;
+  background-image: url(Media/Moon\ Glass\ Window\ Background.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+  #Blog {
+  display: grid;
+  grid-template-columns: 100%;
+  background-image: url(Media//Beer\ Girls\ Porn\ Background.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 }
