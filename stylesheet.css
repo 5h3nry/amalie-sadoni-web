@@ -219,6 +219,21 @@ p {
   width: 500px;
 }
 
+.gallery {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/*Selects all img tags whos parent element has gallery class*/
+.gallery > img {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+}
+
 @media (max-width: 800px) {
   
   .section-image {
@@ -269,4 +284,11 @@ p {
   margin: 50px 1%;
   padding: 0px 1rem;
 }
+
+.gallery {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 }
