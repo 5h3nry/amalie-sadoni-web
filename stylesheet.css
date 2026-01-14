@@ -196,7 +196,7 @@ body {
   border: white;
   border-style: solid;
   border-radius: 100%;
-  width: 50vw;
+  width: 60vw;
   margin: auto;
 }
 
@@ -205,7 +205,7 @@ body {
   font-size: clamp( 1.8rem , 12vw + 1rem, 7.5rem);
   text-wrap: wrap;
   text-align: center;
-  margin: 0px 1%;
+  margin: 50px 1%;
   padding: 0px 1rem;
 
 }
