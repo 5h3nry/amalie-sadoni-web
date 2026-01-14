@@ -172,7 +172,7 @@ body {
   text-decoration: none;
 }
 
-.navbar a,li,h1 {
+.navbar a,li,h2 {
   display: block;
   text-decoration: none;
 }
@@ -181,16 +181,36 @@ body {
     color: white;
 }
 
-.navbar h1 {
+.navbar h2 {
   font-size: 50px;
   text-wrap: nowrap;
   padding: 10px;
 }
 
+.map {
+  width: 100%;
+  height: 500px;
+  float: right;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+}
 
 
+h1 {
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+  font-size: 5rem;
+  text-decoration: underline;
+}
 
-
+p {
+  text-align: center;
+  margin: 10px;
+}
 
 @media (max-width: 800px) {
   
