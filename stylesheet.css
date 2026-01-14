@@ -5,8 +5,8 @@
     box-sizing: border-box;
     
     /* Delete comment for debug*/
-    /*border: red 2px;
-    border-style: solid;*/
+    border: red 2px;
+    border-style: solid;
 }
 
 body {
@@ -107,9 +107,22 @@ body {
 }
 
 .button {
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  display: block;
   color: #000;
   background-color: white;
   border: white 10px;
+  width: 100px;
+  border-radius: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.button a {
+  color: #000;
+  text-decoration: none;
 }
 
 .section-image {
@@ -121,4 +134,15 @@ body {
 
 .section-image img {
   width: 60%;
+}
+
+#Gallery {
+  background-image: url(Media/Gallery\ Background.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#Gallery h2 {
+  margin-top: 5%
 }
