@@ -246,7 +246,7 @@ p {
   display: grid;
   grid-template-columns: auto auto;
   color: white;
-  width: 90%;
+  width: min(95%, 1000px);
   height: auto;
   background-color: #1E1E1E;
   margin: 50px;
