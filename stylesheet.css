@@ -114,15 +114,17 @@ body {
   color: #000;
   background-color: white;
   border: white 10px;
-  width: 100px;
-  border-radius: 25%;
+  width: 25%;
+  border-radius: 50px;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  font-size: 150%;
 }
 
-.button a {
-  color: #000;
-  text-decoration: none;
+.button:hover {
+  background-color: #DDD9BD;
+  transition-duration: 1s;
 }
 
 .section-image {
