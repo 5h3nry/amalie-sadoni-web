@@ -6,9 +6,12 @@
     
     /* Delete comment for debug*/
     /*border: red 2px;
-    border-style: solid; */
+    border-style: solid;*/
 }
 
+body {
+  background-color: #DDD9BD;
+}
 /* Google fonts */
 .neonderthaw-regular {
   font-family: "Neonderthaw", cursive;
@@ -34,49 +37,56 @@
   0 0 10px #ff006f;
 }
 
-.neon-pink {
-  color: #ff006f;
-}
-
-#Splash h1 {
-  /* Clamp function syntax: Min size, preferred size, max size. +1 rem is so that it can be zoomed for accessability.*/
-  font-size: clamp(80%, 10vw + 1rem, 95vw);
-  text-wrap: wrap;
-  text-align: center;
-}
-
+/*How to code this was genuinely the worst thing I've ever done it made me wanna cry omg LMFAO*/
 #Splash {
-  display: grid;
   background-image: url(Media/Amalie\ Collage.png);
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-content: center;
+}
+
+#Splash h1 {
+  /* Clamp function syntax: Min size, preferred size, max size. +1 rem is so that it can be zoomed for accessability.*/
+  font-size: clamp(80%, 6vw + 1rem, 95vw);
+  text-wrap: nowrap;
+  text-align: center;
+  margin: auto;
+  padding: 0px 1rem;
 }
 
 #Avatar {
-  display: block;
-  width: 250px;
-  height: auto;
   border: white;
   border-style: solid;
   border-radius: 100%;
-  margin: auto;
-  margin-top: 50px;
+  width: 25vw;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-right: 50px;
 }
 
-.links img {
-  height: 10vh;
-}
-
-.links {
+.socials {
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.section-grid {
+.socials img {
+  height: 100px;
+  width: auto; 
+}
+
+#AboutMe {
   display: grid;
   grid-template-columns: 55% auto;
+}
+
+#Blog {
+  display: grid;
+  grid-template-columns: auto 55%;
 }
 
 .section {
@@ -93,15 +103,13 @@
 
 .section p {
   font-size: 1.5rem;
-  margin: 25px;
+  margin: 1% 20%;
 }
 
 .button {
-  color: black;
+  color: #000;
   background-color: white;
-  border-radius: 15%;
   border: white 10px;
-  padding: 25px 50%;
 }
 
 .section-image {
